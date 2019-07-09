@@ -1,0 +1,131 @@
+body {
+  background: #333333;
+  color: #ecf0f1;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300; }
+
+.navbar {
+  border-bottom: #1abc9c 1px solid;
+  opacity: 0.8;
+  background: #ecf0f1;
+  color: #16a085; }
+  .navbar a i.fa {
+    color: #16a085; }
+
+#home-section {
+  background: url("../img/home.jpg") no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 700px; }
+  #home-section h1 {
+    text-align: center; }
+  #home-section strong {
+    color: #16a085; }
+  #home-section .home-inner {
+    padding-top: 200px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .btn {
+    font-family: sans-serif;
+    font-weight: 700px;
+    text-transform: uppercase;
+    border-radius: 300px; }
+  #home-section .btn-x1 {
+    padding: 1rem 2rem; }
+  #home-section .btn-primary {
+    background-color: #16a085;
+    border-color: #ecf0f1; }
+
+#about-us-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/about.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: center; }
+  #about-us-section h1 {
+    color: #1abc9c; }
+  #about-us-section strong {
+    color: #1abc9c; }
+
+#categories-section {
+  background-color: #ecf0f1; }
+  #categories-section h3 {
+    color: #1abc9c; }
+  #categories-section h4, #categories-section p {
+    color: #34495e; }
+  #categories-section .btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200px;
+    border-radius: 300px;
+    background-color: #1abc9c;
+    color: #ecf0f1; }
+
+#home-section h4 {
+  color: #34495e; }
+
+#home-section .card {
+  background-color: #16a085; }
+
+#rent-a-shop-section {
+  color: #34495e;
+  background-color: #fff; }
+  #rent-a-shop-section h3 {
+    color: #1abc9c; }
+  #rent-a-shop-section .btn {
+    font-family: sans-serif;
+    font-weight: 200px;
+    border-radius: 300px;
+    background-color: #1abc9c;
+    color: #ecf0f1; }
+  #rent-a-shop-section .card-body {
+    background-color: #ecf0f1; }
+
+#shop-details-section {
+  background-color: #ecf0f1; }
+  #shop-details-section i {
+    color: #1abc9c; }
+    #shop-details-section i .fa {
+      padding-right: 200px; }
+  #shop-details-section h3 {
+    color: #1abc9c; }
+  #shop-details-section h3, #shop-details-section p {
+    color: #34495e; }
+  #shop-details-section .btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200px;
+    border-radius: 300px;
+    background-color: #1abc9c;
+    color: #ecf0f1; }
+
+#payment-section {
+  color: #34495e;
+  background-color: #fff; }
+  #payment-section .btn {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200px;
+    border-radius: 300px;
+    background-color: #1abc9c;
+    color: #ecf0f1; }
+
+#main-footer .btn {
+  font-family: 'Lato', sans-serif;
+  font-weight: 200px;
+  border-radius: 300px;
+  background-color: #1abc9c;
+  color: #ecf0f1; }
+
+#main-footer .fa-twitter {
+  color: #38A1F3; }
+
+#main-footer .fa-facebook {
+  color: #4267b2; }
+
+#main-footer .fa-instagram {
+  color: #fb3958; }
+
+#main-footer .fa-google-plus {
+  color: #CC3333; }
